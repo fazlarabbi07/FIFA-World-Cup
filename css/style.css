@@ -1,0 +1,146 @@
+/* GOOGLE FONT POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-grid-container {
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    display: flex;
+
+}
+
+.header-left {
+    width: 40%;
+    padding: 10px 5px 5px 10px;
+
+}
+
+.header-right {
+    width: 60%;
+}
+
+.header-title h1 {
+    font-size: 70px;
+    color: #FFFFFF
+}
+
+.header-description p {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.header-btn button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    padding: 16px 25px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #DD0000;
+    border: 0px;
+    outline: 0px;
+
+}
+
+.header-right img {
+    width: 581px;
+    height: 613px;
+    margin-left: 40px;
+}
+
+/* BODY STYLE START  */
+.section {
+    width: 1321px;
+    margin: 0 auto;
+}
+
+.section-grid-container {
+    display: flex;
+    width: 312px;
+    height: 362px;
+    margin-top: 100px;
+}
+
+.section-left {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    width: 252px;
+    height: 64px;
+    background-color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.blog {
+    background-color: red;
+    color: #ffff;
+
+}
+
+.section-right {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+    margin-left: 50px;
+}
+
+.card-grid-container {
+    /* border: 5px solid yellow; */
+    box-shadow: 0 0 5px .1px #1E1E1E; ;
+    width: 312px;
+    height: 362px;
+}
+
+.card-grid-container img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-grid-container>img,
+button {
+    display: block;
+   
+}
+
+.button-title-time-and-message-container{
+    margin-left: 20px;
+}
+.button-title-time-and-message-container button {
+    width: 100px;
+    height: 32px;
+    margin: 20px 192px 20px 0px;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 5px;
+}
+.fa-regular{
+    margin-right: 20px;
+}
